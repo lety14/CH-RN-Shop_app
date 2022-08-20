@@ -1,6 +1,6 @@
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import React from "react";
-import { Button, FlatList, Text, View } from "react-native";
+import { Button, FlatList, SafeAreaView, Text, View } from "react-native";
 import CategoryItem from "../../components/category-item";
 import { CATEGORIES } from "../../constants/categories.constants";
 import { RootStackParamList } from "../../navigation/shop";
